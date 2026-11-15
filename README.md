@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LayerHop is a cross‑chain swap and bridge platform that enables users to exchange tokens across 71 blockchain networks, set limit orders, earn on stablecoins, and build payments into their products via APIs, SDKs, and widgets. It offers non‑custodial transactions, real‑time route data, and tools for developers to integrate swapping, bridging, and payment functionalities.
+LayerHop is a non-custodial cross‑chain swapping platform that lets users move assets across 71 blockchain networks. It aggregates quotes from providers like Jupiter, Relay, deBridge and others, showing fees, routes and execution times. Users sign transactions directly from their wallets, and the service charges a small fee (0.10‑0.15%). The platform also offers a REST API and SDKs for developers to integrate swapping functionality.
 
-**Areas:** Swap · Bridge · Payments · Developer Tools · Non‑custodial · Stablecoin Earn
+**Areas:** Blockchain · Swapping · Cross-chain · DeFi · Non-custodial
 
 ## LayerHop on APIs.io
 
@@ -187,18 +187,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 63.0** — strong · rubric 0.28.0 · scored 2026-11-15
+**Kin Score 68.1** — exemplar · rubric 0.27.0 · scored 2026-11-15
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.1 |
 | Contract quality | 71.3 |
 | Contract governance | 79.1 |
-| Operational transparency | 61.4 |
-| Developer ergonomics | 58.8 |
-| Access clarity | 48.5 |
+| Operational transparency | 58.4 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 60.0 |
 
-**Agent readiness 47.4** — agent-ready (gated down from agent-native)
+**Agent readiness 50.5** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -207,7 +207,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
-| Idempotency | — |
+| Idempotency | documented (partial credit) |
 | Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
@@ -225,7 +225,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 17.0** — Payments
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/layerhop-com/](https://apis.io/providers/layerhop-com/).
 
